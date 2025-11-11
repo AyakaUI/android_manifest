@@ -16,6 +16,7 @@
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineageos" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineageos" />
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineageos" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineageos" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="lineageos" />
   <project path="packages/apps/SimpleSettingsConfig" name="android_packages_apps_SimpleSettingsConfig" remote="lineageos" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineageos" />
