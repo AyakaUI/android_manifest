@@ -19,7 +19,7 @@
   <project path="development" name="PixelOS-AOSP/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
   <project path="device/custom/sepolicy" name="FlavorPixel-AOSP/android_device_custom_sepolicy" remote="github" />
   <project path="external/avb" name="PixelOS-AOSP/android_external_avb" groups="pdk" remote="github" />
-  <project path="external/bouncycastle" name="PixelOS-AOSP/android_external_bouncycastle" groups="pdk" remote="github" />
+  <project path="external/bouncycastle" name="FlavorPixel-AOSP/android_external_bouncycastle" groups="pdk" remote="github" />
   <project path="external/dtc" name="PixelOS-AOSP/android_external_dtc" groups="pdk" remote="github" />
   <project path="external/dng_sdk" name="PixelOS-AOSP/android_external_dng_sdk" groups="pdk" remote="github" />
   <project path="external/e2fsprogs" name="PixelOS-AOSP/android_external_e2fsprogs" groups="pdk" remote="github" />
