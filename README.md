@@ -34,8 +34,8 @@ breakfast devicecodename
 Start the compilation:
 
 ```bash
-m pixelos
+m flavoros
 ```
 
 ## Submitting Patches
-Patches are always welcome! Feel free to submit your patches via [PixelOS Gerrit](https://review.pixelos.net/).
+Patches are always welcome! Feel free to submit your patches via [FlavorOS Gerrit](https://review.flavoros.net/).
