@@ -1,14 +1,14 @@
-# PixelOS
+# FlavorOS
 
 ## Getting Started
 
-To get started with the PixelOS source code, you'll need to be
+To get started with the FlavorOS source code, you'll need to be
 familiar with [Git and Repo](https://source.android.com/setup/build/downloading).
 
 To initialize your local repository, run:
 
 ```bash
-repo init -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr2 --git-lfs
+repo init -u https://github.com/FlavorPixel-AOSP/android_manifest.git -b sixteen-qpr2 --git-lfs
 ```
 
 Then, sync the repository:
@@ -34,7 +34,7 @@ breakfast devicecodename
 Start the compilation:
 
 ```bash
-m pixelos
+m flavoros
 ```
 
 ## Submitting Patches
