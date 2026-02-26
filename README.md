@@ -1,8 +1,8 @@
-# FlavorOS
+# AyakaUI
 
 ## Getting Started
 
-To get started with the FlavorOS source code, you'll need to be
+To get started with the AyakaUI source code, you'll need to be
 familiar with [Git and Repo](https://source.android.com/setup/build/downloading).
 
 To initialize your local repository, run:
@@ -34,7 +34,7 @@ breakfast devicecodename
 Start the compilation:
 
 ```bash
-m flavoros
+m ayaka
 ```
 
 ## Submitting Patches
