@@ -1058,6 +1058,6 @@
 
   <include name="snippets/remove.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/flavor.xml" />
+  <include name="snippets/ayaka.xml" />
 
 </manifest>
