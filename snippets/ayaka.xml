@@ -75,6 +75,8 @@
   <project path="vendor/lineage" name="AyakaUI/android_vendor_lineage" remote="github" />
   <project path="vendor/certification" name="AyakaUI/android_vendor_certification" remote="github" />
 
+  <project path="vendor/lineage-priv/keys" name="AyakaUI/android_vendor_lineage_priv_keys" remote="github" />
+
   <project path="vendor/custom" name="AyakaUI/android_vendor_custom" remote="github" />
   <project path="vendor/custom-preference" name="AyakaUI/android_vendor_custom-preference" remote="github" />
 
