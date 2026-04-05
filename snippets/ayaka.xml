@@ -40,7 +40,6 @@
   <project path="hardware/samsung/nfc" name="PixelOS-AOSP/android_hardware_samsung_nfc" groups="pdk" remote="github" />
   <project path="hardware/st/nfc" name="PixelOS-AOSP/android_hardware_st_nfc" groups="pdk" remote="github" />
   <project path="hardware/samsung_slsi/nfc" name="AyakaUI/android_hardware_samsung_slsi_nfc" remote="github" />
-  <project path="hardware/dolby" name="AyakaUI/hardware_dolby" remote="github" />
   <project path="kernel/configs" name="PixelOS-AOSP/android_kernel_configs" groups="vts,pdk" remote="github" />
   <project path="packages/apps/LMOFreeform" name="AyakaUI/android_packages_apps_LMOFreeform" remote="github" />
   <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
