@@ -36,6 +36,3 @@ Start the compilation:
 ```bash
 m ayaka
 ```
-
-## Submitting Patches
-Patches are always welcome! Feel free to submit your patches via [PixelOS Gerrit](https://review.pixelos.net/).
