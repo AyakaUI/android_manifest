@@ -49,6 +49,7 @@
   <project path="packages/apps/LMOFreeform" name="AyakaUI/android_packages_apps_LMOFreeform" remote="github" />
   <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
   <project path="packages/apps/Settings" name="AyakaUI/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="github" />
+  <project path="packages/apps/CustomSettings" name="AyakaUI/android_packages_apps_AyakaLabs" groups="" remote="github" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
   <project path="packages/apps/Updater" name="AyakaUI/android_packages_apps_Updater" remote="github" />
   <project path="packages/apps/DocumentsUI" name="PixelOS-AOSP/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" />
