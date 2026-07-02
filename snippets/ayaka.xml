@@ -31,7 +31,7 @@
   <project path="external/tinycompress" name="PixelOS-AOSP/android_external_tinycompress" groups="pdk" remote="github" />
   <project path="external/zstd" name="PixelOS-AOSP/android_external_zstd" groups="pdk" remote="github" />
   <project path="frameworks/av" name="PixelOS-AOSP/android_frameworks_av" groups="pdk,sysui-studio" remote="github" />
-  <project path="frameworks/base" name="AyakaUI/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
+  <project path="frameworks/base" name="AyakaUI/android_frameworks_base" groups="" remote="" revision="test" />
   <project path="frameworks/native" name="PixelOS-AOSP/android_frameworks_native" groups="pdk" remote="github" />
   <project path="frameworks/opt/telephony" name="PixelOS-AOSP/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="github" />
   <project path="hardware/broadcom/libbt" name="PixelOS-AOSP/android_hardware_broadcom_libbt" groups="pdk" remote="github" />
@@ -51,7 +51,7 @@
   <project path="packages/apps/DroidSpaces" name="AyakaUI/android_packages_apps_DroidSpaces" remote="github" />
   <project path="packages/apps/LMOFreeform" name="AyakaUI/android_packages_apps_LMOFreeform" remote="github" />
   <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
-  <project path="packages/apps/Settings" name="AyakaUI/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="github" />
+  <project path="packages/apps/Settings" name="AyakaUI/android_packages_apps_Settings" groups="" remote="" revision="test" />
   <project path="packages/apps/CustomSettings" name="AyakaUI/android_packages_apps_AyakaUISettings" groups="" remote="github" />
   <project path="packages/services/OmniJaws" name="AyakaUI/android_packages_services_OmniJaws" groups="" remote="github" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
