@@ -1,4 +1,4 @@
-# AyakaUI
+# AyakaUI tests
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ familiar with [Git and Repo](https://source.android.com/setup/build/downloading)
 To initialize your local repository, run:
 
 ```bash
-repo init -u https://github.com/AyakaUI/android_manifest.git -b sixteen-qpr2 --git-lfs
+repo init -u https://github.com/AyakaUI/android_manifest.git -b test --git-lfs
 ```
 
 Then, sync the repository:
