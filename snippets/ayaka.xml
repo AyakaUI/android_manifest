@@ -101,5 +101,6 @@
   <project path="vendor/pixel/gsans" name="PixelOS-AOSP/proprietary_vendor_pixel_gsans" remote="gitlab" />
   <project path="vendor/pixel/launcher" name="PixelOS-AOSP/proprietary_vendor_pixel_launcher" remote="gitlab" />
   <project path="vendor/pixel/sounds" name="PixelOS-AOSP/proprietary_vendor_pixel_sounds" remote="gitlab" />
-  <project path="vendor/pixel/themepicker" name="PixelOS-AOSP/proprietary_vendor_pixel_themepicker" remote="gitlab" />
+  <project path="packages/apps/ThemePicker" name="AyakaUI/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="github" />
+  <project path="packages/apps/WallpaperPicker2" name="AyakaUI/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="github" />
 </manifest>
