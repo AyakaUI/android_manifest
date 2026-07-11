@@ -97,6 +97,7 @@
     <linkfile src="extract-all.sh" dest="vendor/pixel/extract-all.sh" />
   </project>
   <project path="vendor/pixel/gms" name="PixelOS-AOSP/proprietary_vendor_pixel_gms-16.2" remote="gitlab" />
+  <project path="vendor/pixel/clocks" name="PixelOS-AOSP/proprietary_vendor_pixel_clocks" remote="gitlab" />
   <project path="vendor/pixel/gsans" name="PixelOS-AOSP/proprietary_vendor_pixel_gsans" remote="gitlab" />
   <project path="vendor/pixel/sounds" name="PixelOS-AOSP/proprietary_vendor_pixel_sounds" remote="gitlab" />
   <project path="packages/apps/ThemePicker" name="AyakaUI/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="github" />
