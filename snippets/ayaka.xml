@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="art" name="PixelOS-AOSP/android_art" groups="pdk" remote="github" />
-  <project path="bionic" name="PixelOS-AOSP/android_bionic" groups="pdk" remote="github" />
+  <project path="bionic" name="AyakaUI/android_bionic" groups="pdk" remote="github" />
   <project path="bootable/deprecated-ota" name="PixelOS-AOSP/android_bootable_deprecated-ota" groups="pdk-cw,pdk-arsp-ag-sot,pdk-arsp-common" remote="github" />
-  <project path="bootable/recovery" name="PixelOS-AOSP/android_bootable_recovery" groups="pdk" remote="github" />
-  <project path="build/make" name="PixelOS-AOSP/android_build" groups="pdk,sysui-studio" remote="github">
+  <project path="bootable/recovery" name="AyakaUI/android_bootable_recovery" groups="pdk" remote="github" />
+  <project path="build/make" name="AyakaUI/android_build" groups="pdk,sysui-studio" remote="github">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -12,14 +12,14 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="PixelOS-AOSP/android_build_soong" groups="pdk,tradefed,sysui-studio" remote="github">
+  <project path="build/soong" name="AyakaUI/android_build_soong" groups="pdk,tradefed,sysui-studio" remote="github">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="development" name="PixelOS-AOSP/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
-  <project path="device/custom/sepolicy" name="PixelOS-AOSP/android_device_custom_sepolicy" remote="github" />
+  <project path="device/custom/sepolicy" name="AyakaUI/android_device_custom_sepolicy" remote="github" />
   <project path="external/avb" name="PixelOS-AOSP/android_external_avb" groups="pdk" remote="github" />
-  <project path="external/bouncycastle" name="PixelOS-AOSP/android_external_bouncycastle" groups="pdk" remote="github" />
+  <project path="external/bouncycastle" name="AyakaUI/android_external_bouncycastle" groups="pdk" remote="github" />
   <project path="external/dtc" name="PixelOS-AOSP/android_external_dtc" groups="pdk" remote="github" />
   <project path="external/dng_sdk" name="PixelOS-AOSP/android_external_dng_sdk" groups="pdk" remote="github" />
   <project path="external/e2fsprogs" name="PixelOS-AOSP/android_external_e2fsprogs" groups="pdk" remote="github" />
@@ -30,7 +30,7 @@
   <project path="external/wpa_supplicant_8" name="PixelOS-AOSP/android_external_wpa_supplicant_8" groups="pdk" remote="github" />
   <project path="external/zstd" name="PixelOS-AOSP/android_external_zstd" groups="pdk" remote="github" />
   <project path="frameworks/av" name="PixelOS-AOSP/android_frameworks_av" groups="pdk,sysui-studio" remote="github" />
-  <project path="frameworks/base" name="PixelOS-AOSP/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
+  <project path="frameworks/base" name="AyakaUI/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="github" />
   <project path="frameworks/native" name="PixelOS-AOSP/android_frameworks_native" groups="pdk,sysui-studio" remote="github" />
   <project path="frameworks/opt/telephony" name="PixelOS-AOSP/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="github" />
   <project path="hardware/google/pixel" name="PixelOS-AOSP/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="github" />
@@ -39,12 +39,16 @@
   <project path="hardware/libhardware" name="PixelOS-AOSP/android_hardware_libhardware" groups="pdk" remote="github" />
   <project path="hardware/nxp/nfc" name="PixelOS-AOSP/android_hardware_nxp_nfc" groups="pdk" remote="github" />
   <project path="hardware/st/nfc" name="PixelOS-AOSP/android_hardware_st_nfc" groups="pdk" remote="github" />
+  <project path="hardware/samsung_slsi/nfc" name="AyakaUI/android_hardware_samsung_slsi_nfc" remote="github" />
   <project path="kernel/configs" name="PixelOS-AOSP/android_kernel_configs" groups="vts,pdk" remote="github" />
   <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
-  <project path="packages/apps/Settings" name="PixelOS-AOSP/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="github" />
+  <project path="packages/apps/Settings" name="AyakaUI/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="github" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
-  <project path="packages/apps/Updater" name="PixelOS-AOSP/android_packages_apps_Updater" remote="github" />
-  <project path="packages/apps/DolbyAtmos" name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" remote="github" />
+  <project path="packages/apps/CustomSettings" name="AyakaUI/android_packages_apps_AyakaLabs" groups="" remote="github" />
+  <project path="packages/apps/Updater" name="AyakaUI/android_packages_apps_Updater" remote="github" />
+  <project path="vendor/lunaris/dolby" name="AyakaUI/vendor_lunaris_dolby" remote="github" />
+  <project path="packages/apps/DroidSpaces" name="AyakaUI/android_packages_apps_DroidSpaces" remote="github" />
+  <project path="packages/apps/LMOFreeform" name="AyakaUI/android_packages_apps_LMOFreeform" remote="github" />
   <project path="packages/apps/ColumbusService" name="PixelOS-AOSP/android_packages_apps_ColumbusService" remote="github" />
   <project path="packages/modules/adb" name="PixelOS-AOSP/android_packages_modules_adb" groups="pdk" remote="github" />
   <project path="packages/modules/Bluetooth" name="PixelOS-AOSP/android_packages_modules_Bluetooth" groups="pdk" remote="github" />
@@ -57,7 +61,7 @@
   <project path="packages/services/Telephony" name="PixelOS-AOSP/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="system/bpf" name="PixelOS-AOSP/android_system_bpf" groups="pdk" remote="github" />
   <project path="system/chre" name="PixelOS-AOSP/android_system_chre" groups="pdk" remote="github" />
-  <project path="system/core" name="PixelOS-AOSP/android_system_core" groups="pdk" remote="github" />
+  <project path="system/core" name="AyakaUI/android_system_core" groups="pdk" remote="github" />
   <project path="system/extras" name="PixelOS-AOSP/android_system_extras" groups="pdk" remote="github" />
   <project path="system/fs/fs_mgr" name="PixelOS-AOSP/android_system_fs_fs_mgr" groups="pdk" remote="github" />
   <project path="system/logging" name="PixelOS-AOSP/android_system_logging" groups="pdk" remote="github" />
@@ -68,10 +72,11 @@
   <project path="system/security" name="PixelOS-AOSP/android_system_security" groups="pdk" remote="github" />
   <project path="system/update_engine" name="PixelOS-AOSP/android_system_update_engine" groups="pdk" remote="github" />
   <project path="system/vold" name="PixelOS-AOSP/android_system_vold" groups="pdk" remote="github" />
-  <project path="vendor/lineage" name="PixelOS-AOSP/android_vendor_lineage" remote="github" />
-  <project path="vendor/custom" name="PixelOS-AOSP/android_vendor_custom" remote="github" />
-  <project path="vendor/custom-preference" name="PixelOS-AOSP/android_vendor_custom-preference" remote="github" />
-  <project path="vendor/crowdin" name="PixelOS-AOSP/android_vendor_crowdin" remote="github" revision="seventeen" />
+  <project path="vendor/certification" name="AyakaUI/android_vendor_certification" remote="github" />
+  <project path="vendor/lineage-priv/keys" name="AyakaUI/android_vendor_lineage_priv_keys" remote="github" />
+  <project path="vendor/lineage" name="AyakaUI/android_vendor_lineage" remote="github" />
+  <project path="vendor/custom" name="AyakaUI/android_vendor_custom" remote="github" />
+  <project path="vendor/custom-preference" name="AyakaUI/android_vendor_custom-preference" remote="github" />
 
   <!-- Tools -->
   <project path="lineage/scripts" name="PixelOS-AOSP/scripts" groups="tools" remote="github" revision="main" />
@@ -83,7 +88,8 @@
   <project path="vendor/pixel/clocks" name="PixelOS-AOSP/proprietary_vendor_pixel_clocks" remote="gitlab" />
   <project path="vendor/pixel/gms" name="PixelOS-AOSP/proprietary_vendor_pixel_gms-17" remote="gitlab" />
   <project path="vendor/pixel/gsans" name="PixelOS-AOSP/proprietary_vendor_pixel_gsans" remote="gitlab" />
-  <project path="vendor/pixel/launcher" name="PixelOS-AOSP/proprietary_vendor_pixel_launcher" remote="gitlab" />
   <project path="vendor/pixel/sounds" name="PixelOS-AOSP/proprietary_vendor_pixel_sounds" remote="gitlab" />
+  <project path="vendor/pixel/launcher" name="PixelOS-AOSP/proprietary_vendor_pixel_launcher" remote="gitlab" />
   <project path="vendor/pixel/themepicker" name="PixelOS-AOSP/proprietary_vendor_pixel_themepicker" remote="gitlab" />
+
 </manifest>
